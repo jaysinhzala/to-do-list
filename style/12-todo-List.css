@@ -1,0 +1,57 @@
+body{
+    font: 16px;
+    font-family: Arial;
+}
+
+.title{
+    margin-top: 45px;
+}
+
+.input3{
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.duedate{
+    padding-top:7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.add-button{
+    font-size: 15px;
+    padding: 10px 35px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button{
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 19px;
+}
+
+.todo-list3{
+    display: block;
+    margin-top: 10px;
+}
+
+.todo-row{
+    display: grid;
+    grid-template-columns: 200px 150px 116px;
+    align-items: center;
+    margin-bottom: 10px;
+}
